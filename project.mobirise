@@ -1,0 +1,299 @@
+{
+  "settings": {
+    "name": "Alcoboss",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "clarus",
+      "title": "Clarus",
+      "styling": {
+        "primaryColor": "#0dba26",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Raleway",
+        "textFont": "Raleway",
+        "isRoundedButtons": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 4,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": "",
+    "scrollAnimation": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "html_before": "",
+    "headbody": "",
+    "botbody": "",
+    "seo-meta": "",
+    "globalfooter": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a1a1a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2b2b2b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-1",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Tutorials</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Creative site",
+                "showText": true,
+                "text": "Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi. In a diam vehicula sed sollicitudin mattis",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/main-slide-image-2.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Creative site",
+                "showText": true,
+                "text": "Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi. In a diam vehicula sed sollicitudin mattis",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "header2-3",
+          "articleLayout": false,
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left-white.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right-white.svg"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "images": [
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "thumb": "@PROJECT_PATH@/assets/images/bike-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
+                "title": "Пиво",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "thumb": "@PROJECT_PATH@/assets/images/code-man-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/code-man.jpg",
+                "title": "Вино",
+                "caption": "Type caption here"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/coworkers.jpg",
+                "title": "Водка",
+                "caption": "Type caption here"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "thumb": "@PROJECT_PATH@/assets/images/desktop-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/desktop.jpg",
+                "title": "Ликёр",
+                "caption": "Type caption here"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "thumb": "@PROJECT_PATH@/assets/images/room-laptop-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+                "title": "Вермут",
+                "caption": "Type caption here"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/table.jpg",
+                "title": "Джин",
+                "caption": "Type caption here"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "thumb": "@PROJECT_PATH@/assets/images/windows-books-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/windows-books.jpg",
+                "title": "Текила",
+                "caption": "Type caption here"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "thumb": "@PROJECT_PATH@/assets/images/working-area-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/working-area.jpg",
+                "title": "Вино",
+                "caption": "Type caption here"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "thumb": "@PROJECT_PATH@/assets/images/bike-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
+                "title": "Коньяк",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "thumb": "@PROJECT_PATH@/assets/images/bike-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
+                "title": "Ром",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "showTitle": true,
+            "showText": true
+          },
+          "_anchor": "gallery1-0",
+          "articleLayout": false,
+          "title": "Our portfolio",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur strong pellentesque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left-white.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right-white.svg"
+        }
+      ]
+    }
+  }
+}
