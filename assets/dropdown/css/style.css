@@ -9,7 +9,7 @@
   .navbar-dropdown .navbar-brand {
     float: none;
     font-size: 0;
-    padding: 0.625rem 0;
+    padding: 1.25rem 0;
     position: relative;
     transition: padding 0.25s ease;
     white-space: nowrap; }
@@ -167,9 +167,7 @@
       top: 50%; }
     .nav-dropdown .dropdown-item:focus, .nav-dropdown .dropdown-item:hover {
       background: none; }
-@media (max-width: 998px) {
-  .nav-dropdown .link.dropdown-toggle::after {right: -40px;}
-}
+
 @media (max-width: 767px) {
   .nav-dropdown.navbar-toggleable-sm {
     bottom: 0;
